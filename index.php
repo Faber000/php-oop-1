@@ -12,6 +12,10 @@ class Movie {
         $this->direction = $_direction;
         $this->oscar = $_oscar;
     }
+
+    public function getTitle() {
+        return $this->title;
+    }
 }
 
 $movies = [
